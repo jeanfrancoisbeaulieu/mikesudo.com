@@ -2,11 +2,11 @@
 # BEGIN WordPress
 <IfModule mod_rewrite.c>
 RewriteEngine On
-RewriteBase /mikesudo.com/
+RewriteBase /mikesudo/
 RewriteRule ^index\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . /mikesudo.com/index.php [L]
+RewriteRule . /mikesudo/index.php [L]
 </IfModule>
 
 # END WordPress
