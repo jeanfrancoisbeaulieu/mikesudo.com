@@ -69,7 +69,7 @@
 		<?php if ( is_front_page() ) :
 		smartadapt_header(); //display header info or header image
 	else: ?>
-		<?php
+			<?php
 	endif;
 		?>
 		<div id="main" class="row">
