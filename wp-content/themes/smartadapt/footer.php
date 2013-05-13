@@ -18,7 +18,7 @@
     </div>
 </footer>
     <?php wp_footer(); ?>
-        <script type="text/javascript" src="http://sudocoda.com/scwp/wp-content/themes/origami/timbre/examples/public/js/prettify.js"></script>
+    <script type="text/javascript" src="http://sudocoda.com/scwp/wp-content/themes/origami/timbre/examples/public/js/prettify.js"></script>
     <script type="text/javascript">prettyPrint();</script>
     <script type="text/javascript" src="http://sudocoda.com/scwp/wp-content/themes/origami/timbre/examples/public/js/jquery.min.js"></script>
     <script type="text/javascript" src="http://sudocoda.com/scwp/wp-content/themes/origami/timbre/examples/public/js/waveviewer.js"></script>
