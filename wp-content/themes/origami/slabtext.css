@@ -1,0 +1,8 @@
+@font-face {
+	font-family:LeagueGothic;
+	src: url('/fonts/League_Gothic-webfont.eot'); /* IE9 Compat Modes */
+	src: url('/fonts/League_Gothic-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	     url('/fonts/League_Gothic-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+	     url('/fonts/League_Gothic-webfont.svg#LeagueGothic') format('svg'); /* Legacy iOS */
+}
+.slabtexted .slabtext{display:-moz-inline-box;display:inline-block;white-space:nowrap}.slabtextinactive .slabtext{display:inline;white-space:normal;font-size:1em !important;letter-spacing:inherit !important;word-spacing:inherit !important;*letter-spacing:0 !important;*word-spacing:0 !important;}.slabtextdone .slabtext{display:block;line-height:0.9;}
