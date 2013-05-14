@@ -6,14 +6,14 @@
     <title><?php wp_title('|', true, 'right'); ?></title>
     <link rel="shortcut icon" href="/scwp/wp-content/themes/origami/images/suico.ico" type="image/x-icon" />
     <link type="text/css" media="screen" rel="stylesheet" href="/scwp/wp-content/themes/origami/timbre/examples/public/css/examples.css">
-    <link type="text/css" media="screen" rel="stylesheet" href="/scwp//wp-content/themes/origami/timbre/examples/public/css/prettify.css">
-    <link type="text/css" media="screen" rel="stylesheet" href="/scwp//wp-content/themes/origami/css/slabtext.css">
+    <link type="text/css" media="screen" rel="stylesheet" href="/scwp/wp-content/themes/origami/timbre/examples/public/css/prettify.css">
+    <link type="text/css" media="screen" rel="stylesheet" href="/scwp/wp-content/themes/origami/css/slabtext.css">
     <script src="http://ajax.googleapis.com/ajax/libs/mootools/1.4.5/mootools-yui-compressed.js"></script>
     <link rel="stylesheet" type="text/css" media="screen" href="<?php print get_stylesheet_uri() ?>" />
     <link rel="profile" href="http://gmpg.org/xfn/11" />
     <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
     <style>
-        @font-face 
+        @font-face
             {                            
             font-family: 'LeagueGothicRegular';
             src: url('League_Gothic-webfont.eot');

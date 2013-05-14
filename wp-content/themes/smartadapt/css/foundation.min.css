@@ -10,7 +10,7 @@ html {
 
 body {
     background: #fff;
-    font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+    font-family: "Gotham-Book", "Helvetica", Arial, sans-serif;
     font-weight: normal;
     font-style: normal;
     font-size: 13px;
@@ -1266,10 +1266,6 @@ img {
     position: relative;
     text-align: center;
     text-decoration: none;
-    -webkit-transition: background-color 0.15s ease-in-out;
-    -moz-transition: background-color 0.15s ease-in-out;
-    -o-transition: background-color 0.15s ease-in-out;
-    transition: background-color 0.15s ease-in-out
 }
 
 .button:hover, .button:focus {
@@ -1574,10 +1570,6 @@ input[type=submit].button, button.button {
     padding: 10px 50px 11px 20px;
     padding-left: 20px;
     padding-right: 50px;
-    -webkit-transition: background-color 0.15s ease-in-out;
-    -moz-transition: background-color 0.15s ease-in-out;
-    -o-transition: background-color 0.15s ease-in-out;
-    transition: background-color 0.15s ease-in-out
 }
 
 .button.dropdown.split>a:hover, .button.dropdown.split>a:focus {
@@ -1613,10 +1605,7 @@ input[type=submit].button, button.button {
     -webkit-box-shadow: 1px 1px 0 rgba(255, 255, 255, 0.5) inset;
     -moz-box-shadow: 1px 1px 0 rgba(255, 255, 255, 0.5) inset;
     box-shadow: 1px 1px 0 rgba(255, 255, 255, 0.5) inset;
-    -webkit-transition: background-color 0.15s ease-in-out;
-    -moz-transition: background-color 0.15s ease-in-out;
-    -o-transition: background-color 0.15s ease-in-out;
-    transition: background-color 0.15s ease-in-out
+
 }
 
 .button.dropdown.split>span:hover, .button.dropdown.split>span:focus {
@@ -2893,10 +2882,10 @@ ul.accordion>li>div.title {
     position: relative;
     border-left: 1px solid #e9e9e9;
     border-right: 1px solid #e9e9e9;
-    -webkit-transition: 0.15s background linear;
-    -moz-transition: 0.15s background linear;
-    -o-transition: 0.15s background linear;
-    transition: 0.15s background linear
+    -webkit-transition: 300ms background linear;
+    -moz-transition: 300ms background linear;
+    -o-transition: 300ms background linear;
+    transition: 300ms background linear
 }
 
 ul.accordion>li>div.title h1, ul.accordion>li>div.title h2, ul.accordion>li>div.title h3, ul.accordion>li>div.title h4, ul.accordion>li>div.title h5 {
@@ -3480,11 +3469,11 @@ div.progress.round .meter {
 }
 
 .top-bar ul>li:not(.name):hover, .top-bar ul>li:not(.name).active, .top-bar ul>li:not(.name):focus {
-    background: #000
+    box-shadow: inset 0 0 10px #111;
 }
 
 .top-bar ul>li:not(.name):hover a, .top-bar ul>li:not(.name).active a, .top-bar ul>li:not(.name):focus a {
-    color: #d9d9d9
+    box-shadow: inset 0 0 10px #333;
 }
 
 .top-bar ul>li.divider {
@@ -4890,7 +4879,7 @@ table.show-for-xlarge, table.show-for-large, table.hide-for-small, table.hide-fo
     }
 
     .top-bar ul>li a:not(.button) {
-        color: #fff
+        color: #fff;
     }
 
     .top-bar ul>li.toggle-topbar {

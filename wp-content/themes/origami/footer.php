@@ -18,14 +18,14 @@
 	</div>
 </div>
 <?php wp_footer() ?>
-	<script type="text/javascript" src="http://sudocoda.com/scwp/wp-content/themes/origami/timbre/examples/public/js/prettify.js"></script>
+	<script type="text/javascript" src="http://sudocoda.com/wp-content/themes/origami/timbre/examples/public/js/prettify.js"></script>
 	<script type="text/javascript">prettyPrint();</script>
-	<script type="text/javascript" src="http://sudocoda.com/scwp/wp-content/themes/origami/timbre/examples/public/js/jquery.min.js"></script>
-	<script type="text/javascript" src="http://sudocoda.com/scwp/wp-content/themes/origami/timbre/examples/public/js/waveviewer.js"></script>
-	<script type="text/javascript" src="http://sudocoda.com/scwp/wp-content/themes/origami/timbre/examples/public/js/main.js"></script>
-	<script type="text/javascript" src="http://sudocoda.com/scwp/wp-content/themes/origami/timbre/timbre.js"></script>
-	<script type="text/javascript" src="http://sudocoda.com/scwp/wp-content/themes/origami/timbre/index.js"></script>
-    <script src="http://sudocoda.com/scwp/wp-content/themes/origami/js/jquery.slabtext.min.js"></script>
+	<script type="text/javascript" src="http://sudocoda.com/wp-content/themes/origami/timbre/examples/public/js/jquery.min.js"></script>
+	<script type="text/javascript" src="http://sudocoda.com/wp-content/themes/origami/timbre/examples/public/js/waveviewer.js"></script>
+	<script type="text/javascript" src="http://sudocoda.com/wp-content/themes/origami/timbre/examples/public/js/main.js"></script>
+	<script type="text/javascript" src="http://sudocoda.com/wp-content/themes/origami/timbre/timbre.js"></script>
+	<script type="text/javascript" src="http://sudocoda.com/wp-content/themes/origami/timbre/index.js"></script>
+    <script src="http://sudocoda.com/wp-content/themes/origami/js/jquery.slabtext.min.js"></script>
     <script>
         // Function to slabtext the H1 headings
         function slabTextHeadlines() {
