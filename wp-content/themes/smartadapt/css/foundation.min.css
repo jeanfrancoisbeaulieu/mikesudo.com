@@ -4578,8 +4578,9 @@ table.show-for-xlarge, table.show-for-large, table.hide-for-small, table.hide-fo
 
     button.button, input[type="submit"].button {
         width: 100%;
-        padding-left: 0;
-        padding-right: 0
+        font-size:.6em;
+        /*padding-left: 15px;*/
+        /*padding-right: 15px;*/
     }
 
     .button-group button.button, .button-group input[type="submit"].button {
